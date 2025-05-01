@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address">
+                <p class="delivery">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="india">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="signin">
+                <p class="sign">Hello, sign in</p>
+                <p class="list">Account & Lists</p>
+            </div>
+            <div class="return">
+                <p class="sign">Returns</p>
+                <p class="list"> & orders</p>
+            </div>
+
+            <div class="box">
+                <div class="cart-count ms-2">0</div>
+                <ion-icon name="cart" id="cart-icon"></ion-icon>
+            </div>
+
+            <div class="cart">
+                <div class="cart-title">Cart Items</div>
+                <div class="cart-content">
+
+                </div>
+
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">Rs.0</div>
+                </div>
+
+                <button class="btn-buy">Place Order</button>
+                <ion-icon name="close" id="cart-close"></ion-icon>
+
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                <p>All</p>
+            </div>
+            <div class="panel-ops">
+                <p>Fresh</p>
+                <p>Best Sellers</p>
+                <p>Today's Deals</p>
+                <p>Mobiles</p>
+                <p>Gift Cards</p>
+                <p>Electronics</p>
+                <p>New Releases</p>
+                <p>Customer Service</p>
+            </div>
+            <div class="panel-deals">
+                <p>Shop deals in Electronics & More</p>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="title">Discover the Best product</h2>
+        <div class="shop-content">
+
+            <div class="product-box">
+                <div class="pic"><img class="product-img"
+                        src="https://m.media-amazon.com/images/I/71bi6Lxl88L._SX679_.jpg"></div>
+                <h2 class="product-title">HP Victus Gaming Laptop</h2>
+                <p class="description">12th Gen Intel Core i5 12450H Processor 15.6 inch(39.6 cm) FHD Gaming Laptop 8GB
+                    RAM, 512GB SSD, GTX 1650 4GB Graphics, 144Hz, BL KB, Win 11, MSO, B&O, Alexa, Xbox Pass</p>
+                <p class="rate"><span class="star">&#9733;&#9733;&#9733;&#9733;&#9734;</span>2665 Ratings</p>
+                <p><span class="product-price">Rs.54,990</span></p>
+                <button name="cart" class="add-cart">
+                    <p>Add to Cart</p>
+                    <ion-icon name="cart"></ion-icon>
+                </button>
+            </div>
+            <div class="product-box">
+                <div class="pic"><img class="product-img"
+                        src="https://m.media-amazon.com/images/I/51zBem2syzL._SX679_.jpg"></div>
+                <h2 class="product-title">ASUS TUF Gaming F17</h2>
+                <p class="description">ASUS TUF Gaming F17, Intel Core i5-11400H 11th Gen, 17.3-inch (43.94 cm) FHD
+                    144Hz, Gaming Laptop, 8GB RAM ,512GB SSD, 4GB NVIDIA GeForce RTX 2050, Win 11, RGB KB</p>
+                <p class="rate"><span class="star">&#9733;&#9733;&#9733;&#9733;&#9734;</span>2381 Ratings</p>
+                <p><span class="product-price">Rs.56,590</span></p>
+                <button name="cart" class="add-cart">
+                    <p>Add to Cart</p>
+                    <ion-icon name="cart"></ion-icon>
+                </button>
+            </div>
+            <div class="product-box">
+                <div class="pic"><img class="product-img"
+                        src="https://m.media-amazon.com/images/I/71Dj2UjnLdL._SX522_.jpg"></div>
+                <h2 class="product-title">Fastrack FS1</h2>
+                <p class="description">Fastrack FS1 Smart Watch, Biggest 1.95" Horizon Curve Display, Single Sync BT
+                    Calling v5.3, Built-in Alexa, Upto 5Day Battery, ATS Chipset, 100+ Sports Modes, 150+ Watchfaces</p>
+                <p class="rate"><span class="star">&#9733;&#9733;&#9733;&#9733;&#9734;</span>1560 Ratings</p>
+                <p><span class="product-price">Rs.1,890</span></p>
+                <button name="cart" class="add-cart">
+                    <p>Add to Cart</p>
+                    <ion-icon name="cart"></ion-icon>
+                </button>
+            </div>
+            <div class="product-box">
+                <div class="pic"><img class="product-img"
+                        src="https://m.media-amazon.com/images/I/71oXzCK43NL._SX522_.jpg"></div>
+                <h2 class="product-title">BoAt Airdopes 141</h2>
+                <p class="description">Bluetooth TWS in Ear Earbuds Wireless Earphones with mic, 42H Playtime,Low
+                    Latency Mode for Gaming, ENx Tech, IWP, IPX4 Water Resistance, Smooth Touch Controls</p>
+                <p class="rate"><span class="star">&#9733;&#9733;&#9733;&#9733;&#9734;</span>2329 Ratings</p>
+                <p><span class="product-price">Rs.1,280</span></p>
+                <button name="cart" class="add-cart">
+                    <p>Add to Cart</p>
+                    <ion-icon name="cart"></ion-icon>
+                </button>
+            </div>
+            <div class="product-box">
+                <div class="pic"><img class="product-img"
+                        src="https://m.media-amazon.com/images/I/61ev0qhPNAL._SX522_.jpg"></div>
+                <h2 class="product-title">Boult Z60</h2>
+                <p class="description">Boult Z60 Truly Wireless in Ear Earbuds with 60H Playtime, Zen™ ENC Mic, 50ms Low
+                    Latency, 13mm Bass Drivers, Type-C Fast Charging, Made in India, BT V5.3, Touch Control, IPX5 Ear
+                    Buds</p>
+                <p class="rate"><span class="star">&#9733;&#9733;&#9733;&#9733;&#9734;</span>1694 Ratings</p>
+                <p><span class="product-price">Rs.1,200</span></p>
+                <button name="cart" class="add-cart">
+                    <p>Add to Cart</p>
+                    <ion-icon name="cart"></ion-icon>
+                </button>
+            </div>
+            <div class="product-box">
+                <div class="pic"><img class="product-img"
+                        src="https://m.media-amazon.com/images/I/61SnaL4+EFL._SX679_.jpg"></div>
+                <h2 class="product-title">iQOO Z9s Pro 5G</h2>
+                <p class="description">iQOO Z9s Pro 5G, 8Gb Ram, 128Gb Storage, Snapdragon 7 Gen 3 Processor, 120 Hz
+                    Curved Amoled Display with 4500 Nits Local Peak Brightness, 5500 Mah Battery</p>
+                <p class="rate"><span class="star">&#9733;&#9733;&#9733;&#9733;&#9734;</span>2329 Ratings</p>
+                <p><span class="product-price">Rs.22,990</span></p>
+                <button name="cart" class="add-cart">
+                    <p>Add to Cart</p>
+                    <ion-icon name="cart"></ion-icon>
+                </button>
+            </div>
+            <div class="product-box">
+                <div class="pic"><img class="product-img"
+                        src="https://m.media-amazon.com/images/I/81NsonvJOwL._SX679_.jpg"></div>
+                <h2 class="product-title">Samsung Odyssey G3</h2>
+                <p class="description">Samsung Odyssey G3 Gaming Monitor 60cm (24 inches), FHD 1920 X 1080,HDR 10, 180
+                    Hz, 1ms(MPRT), AMD Free sync, DP, HDMI, Height, Tilt, Pivot Adjust Stand, Bezel-Less</p>
+                <p class="rate"><span class="star">&#9733;&#9733;&#9733;&#9733;&#9734;</span>1208 Ratings</p>
+                <p><span class="product-price">Rs.14,850</span></p>
+                <button name="cart" class="add-cart">
+                    <p>Add to Cart</p>
+                    <ion-icon name="cart"></ion-icon>
+                </button>
+            </div>
+            <div class="product-box">
+                <div class="pic"><img class="product-img"
+                        src="https://m.media-amazon.com/images/I/617yPJ1t9AL._SL1500_.jpg"></div>
+                <h2 class="product-title">MageGee Keyboard</h2>
+                <p class="description">MageGee 75% Mechanical Gaming Keyboard with Brown Switch, LED White Backlit
+                    Keyboard, 87 Keys Compact TKL Wired Computer Keyboard for Windows Laptop PC Gamer</p>
+                <p class="rate"><span class="star">&#9733;&#9733;&#9733;&#9733;&#9734;</span>2326 Ratings</p>
+                <p><span class="product-price">Rs.2,690</span></p>
+                <button name="cart" class="add-cart">
+                    <p>Add to Cart</p>
+                    <ion-icon name="cart"></ion-icon>
+                </button>
+            </div>
+            <div class="product-box">
+                <div class="pic"><img class="product-img"
+                        src="https://m.media-amazon.com/images/I/516kq12OmmL._SX679_.jpg"></div>
+                <h2 class="product-title">Amkette EvoFox Mouse</h2>
+                <p class="description">Amkette EvoFox Blaze Programmable Gaming Mouse, 1000Hz Polling Rate, Gaming Grade
+                    Sensitive DPI 200-12800, RGB Lights, Laser Movement Detection Technology</p>
+                <p class="rate"><span class="star">&#9733;&#9733;&#9733;&#9733;&#9734;</span>2372 Ratings</p>
+                <p><span class="product-price">Rs.850</span></p>
+                <button name="cart" class="add-cart">
+                    <p>Add to Cart</p>
+                    <ion-icon name="cart"></ion-icon>
+                </button>
+            </div>
+            <div class="product-box">
+                <div class="pic"><img class="product-img"
+                        src="https://m.media-amazon.com/images/I/51fWpRMV-dL._SX522_.jpg"></div>
+                <h2 class="product-title">Lenovo Tab M11</h2>
+                <p class="description">Tab with Pen, Wi-Fi Connectivity, 8 Gb Ram, 128 Gb ROM, 11 Inch Screen, 90 Hz,
+                    Fhd Display, Quad Speakers with Dolby Atmos, Octa-Core Processor, 13 Mp Rear Camera</p>
+                <p class="rate"><span class="star">&#9733;&#9733;&#9733;&#9733;&#9734;</span>1764 Ratings</p>
+                <p><span class="product-price">Rs.17,950</span></p>
+                <button name="cart" class="add-cart">
+                    <p>Add to Cart</p>
+                    <ion-icon name="cart"></ion-icon>
+                </button>
+            </div>
+            <div class="product-box">
+                <div class="pic"><img class="product-img" src="https://m.media-amazon.com/images/I/410WZ9IEQEL.jpg">
+                </div>
+                <h2 class="product-title">Redmi 12 5G</h2>
+                <p class="description">Redmi 12 5G, Pastel Blue, 8GB RAM, 256GB ROM, Snapdragon 4 Gen 2, MIUI 14,
+                    Android 13.0, 17.24cm FHD+ 90Hz, 5000mAh battery with 22.5W charger, Side fingerprint</p>
+                <p class="rate"><span class="star">&#9733;&#9733;&#9733;&#9733;&#9734;</span>1337 Ratings</p>
+                <p><span class="product-price">Rs.12,990</span></p>
+                <button name="cart" class="add-cart">
+                    <p>Add to Cart</p>
+                    <ion-icon name="cart"></ion-icon>
+                </button>
+            </div>
+            <div class="product-box">
+                <div class="pic"><img class="product-img"
+                        src="https://m.media-amazon.com/images/I/71qsysJOL6L._SX522_.jpg"></div>
+                <h2 class="product-title">GoPro HERO12</h2>
+                <p class="description">GoPro Hero12 Black - Waterproof Action Digital Camera With 5.3K60 Ultra Hd Video,
+                    27Mp Photos, Hdr, 1/1.9" Image Sensor, Live Streaming, Webcam, Stabilization</p>
+                <p class="rate"><span class="star">&#9733;&#9733;&#9733;&#9733;&#9734;</span>1284 Ratings</p>
+                <p><span class="product-price">Rs.22,590</span></p>
+                <button name="cart" class="add-cart">
+                    <p>Add to Cart</p>
+                    <ion-icon name="cart"></ion-icon>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Head Office</h4>
+                    <ul>
+                        <li><a href="#">Amazon Pvt LTD,</a></li>
+                        <li><a href="#">No.1, Gemini Parsn</a></li>
+                        <li><a href="#">Kodambakkam High Road,</a></li>
+                        <li><a href="#">Nungambakkam, Chennai,</a></li>
+                        <li><a href="#">Tamilnadu, India.</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Corporate Office</h4>
+                    <ul>
+                        <li><a href="#">Amazon Pvt LTD,</a></li>
+                        <li><a href="#">Novel Tech Park,</a></li>
+                        <li><a href="#">Opposite to 1 MG Mall,</a></li>
+                        <li><a href="#">MG Road, Bangalore,</a></li>
+                        <li><a href="#">Karnataka, India.</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Let Us Help You</h4>
+                    <ul>
+                        <li><a href="#">Your Account</a></li>
+                        <li><a href="#">Returns Centre</a></li>
+                        <li><a href="#">Purchase Protection</a></li>
+                        <li><a href="#">Amazon App Download</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>contact us</h4>
+                    <ul>
+                        <li><a href="#">+919894252298</a></li>
+                        <li><a href="#">mail@amazon.in</a></li>
+                    </ul>
+                    <h4 style="margin-top: 30px;">Follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="last-container">
+        <p>Copyright © 2025 by Amazon Pvt Ltd.</p>
+    </div>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
