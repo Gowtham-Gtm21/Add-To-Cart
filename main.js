@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', loadproduct);
 
 function loadproduct() {
     loadContent();
-
 }
 
 function loadContent() {
